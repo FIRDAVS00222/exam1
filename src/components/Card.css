@@ -1,0 +1,90 @@
+
+.card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:calc(25% - 40px);
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    position: relative;
+}
+.card .i{
+    width: 100%;
+}
+.card .p{
+    text-align: center;
+}
+.c button{
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    background-color: black;
+height: 41px;
+width: 100%;
+opacity: 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card button p{
+    gap: 10px;
+    margin-left: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.card h3{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.card div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.card div .w{
+    color: #DB4444;
+}
+.card div .y{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.card .c{
+    background-color: #F5F5F5;
+
+}
+.card .c .p img{
+    margin-left: 40px;
+}
+.card h2{
+    padding: 10px;
+    background-color: #DB4444;
+    border-radius: 7px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgba(255, 255, 255, 0.473);
+}
